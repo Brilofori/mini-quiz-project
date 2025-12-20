@@ -1,4 +1,6 @@
-
+What -> means in a function signature
+The syntax appears after the function's parameter list and before the colon that marks the start of the function body. 
+The code following the arrow indicates the expected type of the value the function will return. 
 
 
 ##mangaing python version

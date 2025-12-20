@@ -1,3 +1,33 @@
+
+
+
+##mangaing python version
+using this command: pyenv
+$ pyenv global 3.7.3
+$ pyenv versions
+  system
+* 3.7.3 (set by /Users/dhillard/.pyenv/version)
+
+$ pyenv local 3.7.3
+$ pyenv versions
+  system
+* 3.7.3 (set by /Users/dhillard/myproj/.python-version)
+
+$ pyenv shell 3.7.3
+$ pyenv versions
+  system
+* 3.7.3 (set by PYENV_VERSION environment variable)
+
+$ python --version
+Python 3.7.3
+  system
+* 3.7.3 (set by /Users/dhillard/myproj/.python-version
+         
+###using with, this has the benifit of cleaner code to utilise objects with a lifecycle like a socket or text. 
+with open('txt.file') as f:
+    data = f.read()
+
+
 #use hash to comment throught your code for documentation
 # PYTHON DOESNT HAVE A syntax for multiline comments, using hash multiple times allows multiline comments
 

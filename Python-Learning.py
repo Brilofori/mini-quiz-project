@@ -1,8 +1,6 @@
 The rule you’ve just internalized (write this down)
-
 Loops evaluate items.
 Flags evaluate outcomes.(using bool to set state of true or false 
-
 If you remember that sentence, you’ll avoid this mistake forever.
 
 What -> means in a function signature
@@ -42,7 +40,6 @@ with open('txt.file') as f:
 
 x = "bril"
 normal = 1
-
 name = "bril"
 
 number = 1 
@@ -110,7 +107,6 @@ print(random.randrange(1, 10))
 
 A = """THIS IS A MULTILINE STR,
 CAN OYU BELEIVE IT"""
-
 print(A[0])
 
 #getting length of a string 
@@ -128,11 +124,6 @@ indeed = print("bril" in string)
 if indeed == True:
   print(string)
 
-
-  
-   
-
-
 ###for loops
 ###for incriments through a sequence/iterable object e.g list, tuple
 ##e.g list for loop below
@@ -141,8 +132,6 @@ for num in [1,2,3,4,5,6]:
  #string
 for string in "name":
    print(string)
-
-
 
 magicBox = range(3,8)
 
